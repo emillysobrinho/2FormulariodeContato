@@ -10,36 +10,36 @@
   <form>
     <div class="form-row">
       <div class="form-group col-md-6">
-        <label for="inputEmail4">Email</label>
+        <p><label for="inputEmail4">Email</label></p>
         <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
       </div>
       <div class="form-group col-md-6">
-        <label for="inputPassword4">Senha</label>
+       <p>><label for="inputPassword4">Senha</label></p>
         <input type="password" class="form-control" id="inputPassword4" placeholder="Senha">
       </div>
     </div>
     <div class="form-group">
-      <label for="inputAddress">Endereço</label>
+     <p><label for="inputAddress">Endereço</label></p> 
       <input type="text" class="form-control" id="inputAddress" placeholder="Rua dos Bobos, nº 0">
     </div>
     <div class="form-group">
-      <label for="inputAddress2">Endereço 2</label>
+      <p><label for="inputAddress2">Endereço 2</label></p>
       <input type="text" class="form-control" id="inputAddress2" placeholder="Apartamento, hotel, casa, etc.">
     </div>
     <div class="form-row">
       <div class="form-group col-md-6">
-        <label for="inputCity">Cidade</label>
+        <p><label for="inputCity">Cidade</label></p>
         <input type="text" class="form-control" id="inputCity">
       </div>
       <div class="form-group col-md-4">
-        <label for="inputEstado">Estado</label>
+       <p><label for="inputEstado">Estado</label></p> 
         <select id="inputEstado" class="form-control">
           <option selected>Escolher...</option>
           <option>...</option>
         </select>
       </div>
       <div class="form-group col-md-2">
-        <label for="inputCEP">CEP</label>
+       <p> <label for="inputCEP">CEP</label></p>
         <input type="text" class="form-control" id="inputCEP">
       </div>
     </div>
@@ -50,8 +50,49 @@
           Clique aqui!
         </label>
       </div>
-    </div>
-    <button type="submit" class="btn btn-primary">Entrar</button>
-  </form>
+      <form>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault01">Primeiro nome</label>
+            <input type="text" class="form-control" id="validationDefault01" placeholder="Nome" value="Mark" required>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationDefault02">Sobrenome</label>
+            <input type="text" class="form-control" id="validationDefault02" placeholder="Sobrenome" value="Otto" required>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationDefaultUsername">Usuário</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupPrepend2">@</span>
+              </div>
+              <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Usuário" aria-describedby="inputGroupPrepend2" required>
+            </div>
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationDefault03">Cidade</label>
+            <input type="text" class="form-control" id="validationDefault03" placeholder="Cidade" required>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationDefault04">Estado</label>
+            <input type="text" class="form-control" id="validationDefault04" placeholder="Estado" required>
+          </div>
+          <div class="col-md-3 mb-3">
+            <label for="validationDefault05">CEP</label>
+            <input type="text" class="form-control" id="validationDefault05" placeholder="CEP" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+            <label class="form-check-label" for="invalidCheck2">
+              Concordo com os termos e condições
+            </label>
+          </div>
+        </div>
+        <button class="btn btn-primary" type="submit">Enviar</button>
+      </form>
 </body>
 </html>
